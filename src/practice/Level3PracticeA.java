@@ -31,10 +31,10 @@ public class Level3PracticeA {
 		allCatches.put("david", davidsCatches);
 
 		FishingContest contest = new FishingContest(allCatches);
-		assertEquals(12, contest.findBiggestFish("john"), SMALL_NUMBER);
+		assertEquals(12.0, contest.findBiggestFish("john"), SMALL_NUMBER);
 		assertEquals(3.3, contest.findBiggestFish("esme"), SMALL_NUMBER);
-		assertEquals(3, contest.findBiggestFish("isis"), SMALL_NUMBER);
-		assertEquals(0, contest.findBiggestFish("david"), SMALL_NUMBER);
+		assertEquals(3.0, contest.findBiggestFish("isis"), SMALL_NUMBER);
+		assertEquals(0.0, contest.findBiggestFish("david"), SMALL_NUMBER);
 	}
 
 	/*

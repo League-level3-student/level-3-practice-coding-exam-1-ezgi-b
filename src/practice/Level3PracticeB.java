@@ -18,7 +18,7 @@ public class Level3PracticeB {
 	 *    An arraylist of Strings to search through
 	 *    A String that you're searching for
 	 *    
-	 * firstIndexOf returns the LAST index where you encounter the given string IGNORING CASE
+	 * lastIndexOf returns the LAST index where you encounter the given string IGNORING CASE
 	 * So, if you're looking for "Apple" and you find "aPPlE", that's a match!
 	 * 
 	 * But because your teacher is cruel, you are forbidden from using equalsIgnoreCase
